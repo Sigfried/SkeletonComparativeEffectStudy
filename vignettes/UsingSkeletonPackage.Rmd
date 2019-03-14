@@ -42,7 +42,7 @@ library(SkeletonComparativeEffectStudy)
 ```
 
 ## extras/CodeToRun.R
-Note that for debugging purposes the package developer (you) could story the code for running the study package in your environment in the file called `CodeToRun.R` in the `extras` folder.
+Note that for debugging purposes the package developer (you) could store the code for running the study package in your environment in the file called `CodeToRun.R` in the `extras` folder.
 
 ## extras/PackageMaintenance.R
 This file contains other useful code to be used only by the package developer (you), such as code to generate the package manual, and code to insert cohort definitions into the package. All statements in this file assume the current working directory is set to the root of the package.
