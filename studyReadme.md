@@ -1,4 +1,4 @@
-SkeletonComparativeEffectStudy
+hiv_test_study
 ==============================
 
 
@@ -37,14 +37,14 @@ How to run
 	
 	Alternatively, ensure that you have installed both 32-bit and 64-bit JDK versions, as mentioned in the [video tutorial](https://youtu.be/K9_0s2Rchbo).
 	
-2. In 'R', use the following code to install the SkeletonComparativeEffectStudy package:
+2. In 'R', use the following code to install the hiv_test_study package:
 
   To do: Need to provide some instructions for installing the study package itself.
 	
 3. Once installed, you can execute the study by modifying and using the following code:
 	
 	```r
-	library(SkeletonComparativeEffectStudy)
+	library(hiv_test_study)
 	
 	# Optional: specify where the temporary files (used by the ff package) will be created:
 	options(fftempdir = "c:/FFtemp")
@@ -56,7 +56,7 @@ How to run
 	minCellCount <- 5
 	
 	# The folder where the study intermediate and result files will be written:
-	outputFolder <- "c:/SkeletonComparativeEffectStudy"
+	outputFolder <- "c:/hiv_test_study"
 	
 	# Details for connecting to the server:
 	# See ?DatabaseConnector::createConnectionDetails for help
@@ -118,12 +118,12 @@ How to run
 
 License
 =======
-The SkeletonComparativeEffectStudy package is licensed under Apache License 2.0
+The hiv_test_study package is licensed under Apache License 2.0
 
 
 Development
 ===========
-SkeletonComparativeEffectStudy was developed in ATLAS and R Studio.
+hiv_test_study was developed in ATLAS and R Studio.
 
 ### Development status
 

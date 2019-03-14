@@ -5,11 +5,11 @@
 	"actions":[{
 		"type": "fileNameFindAndReplace",
 		"input": "packageName",
-		"find": "SkeletonComparativeEffectStudy"
+		"find": "hiv_test_study"
 	},{
 		"type": "stringFindAndReplace",
 		"input": "packageName",
-		"find": "SkeletonComparativeEffectStudy"
+		"find": "hiv_test_study"
 	},{
 		"type": "jsonArrayToCsv",
 		"input": "cohortDefinitions",
